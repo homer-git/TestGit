@@ -38,7 +38,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 
 	<!-- 加载映射文件 -->
 	<mappers>
-		<mapper resource="sqlmap/Actor.xml" />
+		<mapper resource="mapper/Actor.xml" />
 		<!-- <mapper resource="mapper/UserMapper.xml" /> -->
 
 		<!-- 批量加载映射文件
