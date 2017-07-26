@@ -14,6 +14,7 @@ public class Actor {
 	private String first_name;
 	private String last_name;
 	private Date last_update;
+	private String uuid_vl;
 	public int getActor_id() {
 		return actor_id;
 	}
@@ -38,10 +39,16 @@ public class Actor {
 	public void setLast_update(Date last_update) {
 		this.last_update = last_update;
 	}
+	public String getUuid_vl() {
+		return uuid_vl;
+	}
+	public void setUuid_vl(String uuid_vl) {
+		this.uuid_vl = uuid_vl;
+	}
 	@Override
 	public String toString() {
 		return "Actor [actor_id=" + actor_id + ", first_name=" + first_name + ", last_name=" + last_name
-				+ ", last_update=" + last_update + "]";
+				+ ", last_update=" + last_update + ", uuid_vl=" + uuid_vl + "]";
 	}
 	
 
